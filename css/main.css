@@ -1,0 +1,63 @@
+body {margin:0;padding:5px 30px 10px 30px;}
+body div.main {text-align:center;}
+h3 {font-weight:normal;}
+#input {text-align:left; width:100%;height:90px;font-size:20px;clear:both;padding:3px 5px;resize: vertical;}
+#input_description {
+    height:150px;
+    clear:both;
+    text-align:left;
+    overflow-y:scroll;
+    padding-top:10px;
+    font-size:18px;
+    line-height:35px;
+}
+#input_description span {
+    margin:0 5px;
+    padding:2px 5px;
+    border:2px dashed #393;
+    color:#393;
+    border-radius:10px;
+    background-color:#fff;
+    white-space:nowrap;
+}
+#input_description span.active {
+    border:2px dashed #339;
+    border-bottom:none;
+    color:#339;
+    border-radius:10px 10px 0 0;
+    background-color:#fdfdfd;
+    z-index:5;
+    position:relative;
+    padding-bottom:10px;
+}
+#infobox {
+    text-indent:10px;
+    border:2px dashed #339;
+    background-color:#f7f7f7;
+    position:absolute;
+    display:none;
+    line-height:20px;
+    font-size:16px;
+    text-align:left;
+    z-index:3;
+    margin-right:18px;
+}
+#infobox p {padding:0 5px 0 10px;margin:0 0 10px 0;text-indent: 10px;}
+#infobox p:first-child {margin-top:5px;}
+#infobox p:last-child {margin-bottom:4px;}
+#infobox code {font-family:monospace;padding:2px;border:1px solid #ccc;font-size:15px;background-color:#fafafa;
+    display:block;}
+#infobox .title {
+    border-bottom:1px solid #ccc;
+    background-color:#fdfdfd;
+    padding:4px 0 4px 10px;
+    font-size:17px;
+    font-weight:bold;
+}
+#infobox .short_info {
+    border-bottom:1px solid #ccc;
+    background-color:#fdfdfd;
+    padding:4px 0 4px 10px;
+    font-size:17px;
+}
+div.see, div.overrides {padding:3px 5px;border-top:1px solid #ccc;background-color:#fdfdfd;}
